@@ -16,6 +16,10 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, pariatur! Maxi
 	pdf2txt.py -o data/sr15_raw.text data/sr15.pdf 
     ``` 
 </ol>
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
 
 <hr>
 
