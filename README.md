@@ -12,9 +12,11 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, pariatur! Maxi
 <ol>
 	<li> Obtain all the raw pdf files from the <a href="https://www.uvm.edu/~oir/?Page=base_pay.html&SM=submenu_fac_staff.html"></a>UVM website</li>
 	<li> User pdfMiner (python package) to convert the pdf into a text file<ul>
-	<li> ```
+	<li> 
+		```
 		pdf2txt.py -o data/sr15_raw.text data/sr15.pdf 
-		``` </li>
+		``` 
+	</li>
 	</ul></li>
 </ol>
 
