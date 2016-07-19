@@ -10,12 +10,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, pariatur! Maxi
 
 ## Processing Data
 
-	1.) Obtain all the raw pdf files from uvm.edu
-	2.) User pdfMiner (python package) to convert the pdf into a text file:
-        ```
-	    pdf2txt.py -o data/sr15_raw.text data/sr15.pdf 
-	    ```
-    3.)
+1. This is a numbered list.
+2. I'm going to include a fenced code block as part of this bullet:
+
+    ```
+    Code
+    More Code
+    ```
+
+3. We can put fenced code blocks inside nested bullets, too.
 
 
 
