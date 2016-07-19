@@ -4,14 +4,23 @@ This is a python datascience project exploring all publically available salary d
 
 The data is available <a href="https://www.uvm.edu/~oir/?Page=base_pay.html&SM=submenu_fac_staff.html">here</a>.
 
-## Play the game
 
-Visit <a target="_blank" href="https://thechutrain.github.io/battleship.js/battleship.html"> this website </a> to check out this program.
+### Process of Project
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, pariatur! Maxime, architecto quam, adipisci placeat tenetur in veniam ab aut deleniti sint porro, modi. Non repudiandae hic veritatis et aliquam.
 
-## Things to Do:
+## Processing Data
+<ol>
+	<li> Obtain all the raw pdf files from the <a href="https://www.uvm.edu/~oir/?Page=base_pay.html&SM=submenu_fac_staff.html"></a>UVM website</li>
+	<li> User pdfMiner (python package) to convert the pdf into a text file<ul>
+	<li> '''pdf2txt.py -o data/sr15_raw.text data/sr15.pdf ''' </li>
+	</ul></li>
+</ol>
+
+<hr>
 
 ## Built With
 
+* <a href="http://euske.github.io/pdfminer/index.html">pdfMiner</a> - a python package that converts pdf files to text
 * pandas - dataframe python
 * numpy - 
 
@@ -22,5 +31,4 @@ Visit <a target="_blank" href="https://thechutrain.github.io/battleship.js/battl
 
 ## Acknowledgments
 
-* Thank you https://gist.github.com/PurpleBooth/README-Template.md for
-* the template for this document!
+* Thank you https://gist.github.com/PurpleBooth/README-Template.md for the template for this document!
