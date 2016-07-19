@@ -10,15 +10,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, pariatur! Maxi
 
 ## Processing Data
 
-1. This is a numbered list.
-2. I'm going to include a fenced code block as part of this bullet:
+1. Obtain all the raw pdf files from the <a href="https://www.uvm.edu/~oir/?Page=base_pay.html&SM=submenu_fac_staff.html">UVM website</a>
+
+2. User pdfMiner (python package) to convert the pdf into a text file:
 
     ```
-    Code
-    More Code
+    $ pdf2txt.py -o data/sr15_raw.text data/sr15.pdf 
     ```
 
-3. We can put fenced code blocks inside nested bullets, too.
+3. blah blah blah
 
 
 
